@@ -405,3 +405,50 @@ footer .footerMenu li a{
 
 
 /* RWD */
+@media (max-width:991px) {
+	header{
+		padding: 20px 20px;
+	}
+	header.sticky{
+		padding: 10px 20px;
+	}
+	section{
+		padding: 20px;
+	}
+	.banner .contentBox{
+		padding: 40px 30px;
+	}
+	.about .contentBox{
+		grid-template-columns: repeat(1,1fr);
+		margin-top: 15px;
+	}
+	.post .contentBox{
+		grid-template-columns: repeat(1,1fr);
+	}
+	.post .contentBox .postColumn .postBox,
+	.post .contentBox .postColumn .postBox.extraHeight{
+		height: 300px;
+	}
+	.contact .contactForm .row{
+		grid-template-columns: repeat(1,1fr);
+	}
+	footer{
+		padding: 40px 20px;
+	}
+	footer .footerMenu {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		margin: 20px 0;
+	}
+	footer .footerMenu li a{
+		margin: 5px 0;
+	}
+	.title{
+		padding-top: 30px;
+	}
+	.mgt60{
+		margin-top: 0;
+	}
+}
