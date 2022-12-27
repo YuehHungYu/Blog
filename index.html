@@ -13,11 +13,12 @@
     <div class="menuToggle"></div>
   </header>
   <ul class="navigation">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#post">Post</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+    <li><a href="#about" onclick="toggleMenu();" >About</a></li>
+    <li><a href="#post" onclick="toggleMenu();">Post</a></li>
+    <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
   </ul>
+
   <!-- Banner -->
   <section class="banner" id="home">
     <img src="pic/banner.jpg" class="cover">
@@ -74,7 +75,7 @@
             <a href="#" class="btn">Read Me</a>
           </div>
         </div>
-        <div class="postBox">
+        <div class="postBox extraHeight">
           <div class="imgBox">
             <img src="pic/post3.jpg" class="cover">
           </div>
@@ -86,7 +87,7 @@
         </div>
       </div>
       <div class="postColumn">
-        <div class="postBox">
+        <div class="postBox extraHeight">
           <div class="imgBox">
             <img src="pic/post4.jpg" class="cover">
           </div>
@@ -138,7 +139,7 @@
             <a href="#" class="btn">Read Me</a>
           </div>
         </div>
-        <div class="postBox">
+        <div class="postBox extraHeight">
           <div class="imgBox">
             <img src="pic/post9.jpg" class="cover">
           </div>
@@ -150,7 +151,46 @@
         </div>
       </div>
     </div>
+    <div class="title">
+      <a href="#" class="btn mgt60">Load More</a>
+    </div>
   </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="title">
+      <h2>Get in  Touch</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora natus quod fugit, maiores aliquid error, maxime voluptate nihil exercitationem ratione adipisci, odit ipsam officia praesentium.</p>
+    </div>
+    <div class="contactForm">
+      <div class="row">
+        <input type="text" name="" placeholder="First Nmae">
+        <input type="text" name="" placeholder="Last Nmae">
+      </div>
+      <div class="row">
+        <input type="text" name="" placeholder="Email Address">
+        <input type="text" name="" placeholder="Mobile No.">
+      </div>
+      <div class="row2">
+        <textarea placeholder="Message"></textarea>
+      </div>
+      <div class="row2">
+        <input type="submit" value="Send" class="btn">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <a href="#" class="logo">My Blog</a>
+    <ul class="footerMenu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#post">Post</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <p class="copyrightText">@2022 Yueh</p>
+  </footer>
   <script src="main.js"></script>
 </body>
 </html>
